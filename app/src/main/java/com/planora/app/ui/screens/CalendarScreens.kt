@@ -515,7 +515,7 @@ fun EventEditorScreen(vm: AppViewModel, nav: Nav, id: Long, date: String) {
     val settings by vm.settings.collectAsStateWithLifecycle()
     val initial = remember(id) {
         all.firstOrNull { it.id == id } ?: run {
-            val startDt = DateLogic.parse(date)?.let { if (date.length > 10) it else it.withHour(LocalTime.now().hour + 1 coerceAtMost 23) }
+            val startDt = DateLogic.parse(date)?.let { if (date.length > 10) it else it.withHour((LocalTime.now().hour + 1).coerceAtMost(23)) }
                 ?: LocalDateTime.now().withMinute(0).withSecond(0).withNano(0).plusHours(1)
             EventEntity(
                 title = "", start = DateLogic.format(startDt), end = DateLogic.format(startDt.plusHours(1)),
