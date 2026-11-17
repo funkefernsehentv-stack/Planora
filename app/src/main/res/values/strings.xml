@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Planora</string>
+    <string name="widget_countdown">Countdown</string>
+    <string name="widget_countdown_list">Nächste Countdowns</string>
+    <string name="widget_calendar">Kalender</string>
+    <string name="widget_checklist">Checkliste</string>
+    <string name="widget_note">Notiz</string>
+    <string name="widget_quick_note">Neue Notiz</string>
+    <string name="widget_desc_countdown">Ein einzelner Countdown im Kartendesign</string>
+    <string name="widget_desc_countdown_list">Die nächsten Countdowns als Liste</string>
+    <string name="widget_desc_calendar">Monat, Woche, heutige oder nächste Termine</string>
+    <string name="widget_desc_checklist">Checkliste mit Abhaken direkt im Widget</string>
+    <string name="widget_desc_note">Zeigt eine ausgewählte Notiz</string>
+    <string name="widget_desc_quick_note">Schnell eine neue Notiz anlegen</string>
+</resources>
